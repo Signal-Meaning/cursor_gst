@@ -1,8 +1,11 @@
 # Signal & Meaning
 
-A C project that uses GStreamer for video processing and manipulation.
+A C project that uses GStreamer to split a video file into separate audio and video (with no audio) files.
 
-Cursor created this from the following prompt: `write a working GStreamer application in C which splits input video into two separate files: MP3 and MP4 (without video).` Its first attempt failed, so it prompted itself to build the `simple` version. From that it generated the `working` version. I pointed out an error. It corrected that and built the `final` version. This was strictly vibe coded, which I do not recommend. (More on that later.)
+Cursor created this entirely from the following prompt and a little nudging: 
+> 🎯 **Developer Request:** write a working GStreamer application in C which splits input video into two separate files: MP3 and MP4 (without video).
+
+It did require some nudging to complete. The first several attempts failed, so it prompted itself to build a `simple` version based on the CLI. From that it generated the `working` version. I pointed out an error in its understanding of the requirements at the end. It corrected that and built the `final` version. I would say that this was strictly vibe-coded--in that I didn't approach this particular challenging in a way that made it easy for cursor, which has severe limitations and I do not recommend. (More on alternatives later.) A complete transcript is available in [transcript.md](transcript.md).
 
 ## Files
 
@@ -35,3 +38,6 @@ The programs process video files using GStreamer pipelines. Input video files sh
 - GStreamer 1.0
 - GStreamer plugins (base, good)
 - C compiler (GCC or Clang) 
+
+## Acknowledgements
+Thanks to Vlad Dovgalecs, who had tried this prompt elsewhere.
