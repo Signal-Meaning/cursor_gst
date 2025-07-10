@@ -1,6 +1,8 @@
-# Modeled Interactions
+# Signal & Meaning
 
 A C project that uses GStreamer for video processing and manipulation.
+
+Cursor created this from the following prompt: `write a working GStreamer application in C which splits input video into two separate files: MP3 and MP4 (without video).` Its first attempt failed, so it prompted itself to build the `simple` version. From that it generated the `working` version. I pointed out an error. It corrected that and built the `final` version. This was strictly vibe coded, which I do not recommend. (More on that later.)
 
 ## Files
 
